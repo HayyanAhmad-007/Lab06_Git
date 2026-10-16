@@ -58,7 +58,7 @@ while(divisor>0)
     
     digitCount++;
 }
-cout<<"The original code is:"<<originalCode;
+cout<<"The original code is:"<<originalCode<<endl;
 cout<<"The number of digits said were:"<<digitCount;
 return 0;
 }
