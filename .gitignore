@@ -1,0 +1,9 @@
+# Compiled executable files
+*.exe
+
+# Object files
+*.o
+*.obj
+
+# Visual Studio files
+.vs/
