@@ -1,5 +1,4 @@
-# Number-to-Words Converter - Main Version
-
+# Number-to-Words Converter
 
 
 \## Project Title
