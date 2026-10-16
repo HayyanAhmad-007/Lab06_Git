@@ -17,41 +17,45 @@ while(code/divisor>=10)
 while(divisor>0)
 {
     digit=code/divisor;
+    if (digitCount > 0)
+{
+    cout << " ";
+}
    
     switch(digit)
     {
         case 0:
-        cout <<" Zero";
+        cout <<"Zero";
         break;
         case 1:
-        cout <<" One";
+        cout <<"One";
         break;
         case 2:
-        cout <<" Two";
+        cout <<"Two";
         break;
         case 3:
-        cout <<" Three";
+        cout <<"Three";
         break;
         case 4:
-        cout <<" Four";
+        cout <<"Four";
         break;
         case 5:
-        cout <<" Five";
+        cout <<"Five";
         break;
         case 6:
-        cout <<" Six";
+        cout <<"Six";
         break;
         case 7:
-        cout <<" Seven";
+        cout <<"Seven";
         break;
         case 8:
-        cout <<" Eight";
+        cout <<"Eight";
         break;
         case 9:
-        cout <<" nine";
+        cout <<"nine";
         break;
         default:
-        cout <<" Invalid input";
+        cout <<"Invalid input";
     }
     code=code%divisor;
     divisor=divisor/10;
